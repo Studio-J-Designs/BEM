@@ -7,19 +7,95 @@
   </head>
   <body>
 
-    <div class="member">
+    <div class="memberSection">
 
-      <h1 class="member__heading"> Membership Heading or Something </h1>
+      <h1 class="member__heading"> Membership Heading</h1>
+
+        <br><br>
 
         <form class="member__form">
 
-          <label for="name"> Name </label>
-            <input type="text" id="name" class="member__text--name">
+          <label for="name" class="name"> Name
+            <input type="text" id="name" class="member border member__text--name">
+          </label>
 
           <br><br>
 
-          <label for="name"> Email </label>
-            <input type="text" id="name" class="member__text--email">
+          <label for="name" class="name"> Email
+            <input type="text" id="email" class="member border member__text--email">
+          </label>
+
+          <br><br>
+
+          <label for="name" class="name"> Phone
+            <input type="text" id="phone" class="member border member__text--phone">
+          </label>
+
+          <br><br>
+
+          <div class="member__form--region">
+
+              <label for="name" class="name"> Region
+
+                <label for="name" class="member member__radio--wellington"> Wellington
+                  <input type="radio" name="answer">
+                </label>
+
+                <label for="name" class="member member__radio--auckland"> Auckland
+                  <input type="radio" name="answer">
+                </label>
+
+              </label>
+
+          </div>
+
+          <br><br>
+
+          <div class="member__form--hobbies">
+
+            <label for="name" class="name"> Hobbies
+
+                <label class="member member__checkbox--puns">
+                  <input type="checkbox" name="answer"> Studying Puns
+                </label>
+
+                <label class="member member__checkbox--poster">
+                  <input type="checkbox" name="answer"> Creating Motivational Posters
+                </label>
+
+                <label class="member member__checkbox--hacking">
+                  <input type="checkbox" name="answer"> Hacking the Government
+                </label>
+
+            </label>
+
+          </div>
+
+          <br><br>
+
+          <label for="name" class="name"> Support
+
+            <select class="border member">
+              <option value="educational" name="answer" class="member__dropbox--education"> Educational </option>
+              <option value="dog" name="answer" class="member__dropbox--dog"> Dog </option>
+              <option value="cat" name="answer" class="member__dropbox--cat"> Cat </option>
+              <option value="tank" name="answer" class="member__dropbox--tank"> Tank </option>
+              <option value="damage" name="answer" class="member__dropbox--damage"> Damage </option>
+            </select>
+
+          </label>
+
+          <br><br>
+
+          <label for="name" class="name"> Message
+            <textarea name="name" rows="6" cols="60" id="message" class="member border member__textarea--message"></textarea>
+          </label>
+
+          <br><br><br>
+
+          <label>
+            <input type="submit" id="submit" class="member__submit">
+          </label>
 
         </form>
 

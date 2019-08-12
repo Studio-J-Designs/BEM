@@ -5,9 +5,56 @@
 }
 
 body {
-  background-color: wheat;
+  background-color: #99B898;
+  font-family: dense;
+  font-size: 30px;
+  border: solid;
+  border-color: #E84A5F;
+}
+
+h1 {
+  color:  #E84A5F;
+}
+
+.memberSection {
+  margin-left: 100px !important;
+  margin: 20px;
 }
 
 .member__heading {
-  font-family: impact;
+  font-family: coolvetica;
 }
+
+.name {
+  font-family: coolvetica;
+  color: white;
+}
+
+.member {
+  font-family: dense;
+  color:  #2A363B;
+  font-size: 30px;
+}
+
+
+.border {
+  border-color: #FF847C;
+  border-style: solid;
+  border-width: medium;
+}
+
+
+
+
+
+/* Colour Code
+
+Wheaty Colour:       #FECEA8
+Greeny Colour:       #99B898
+Orangey Colour:      #FF847C
+Red Colour:          #E84A5F
+Dark Grey Colour:    #2A363B
+
+
+
+ */
